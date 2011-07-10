@@ -1,0 +1,42 @@
+/*
+ * File: ZHLinkedHealTailList.java
+ */
+
+package zhstructures;
+
+/**
+ * Class implementing the ZHHeadTailList interface as a ZHOneWayLinkedStructure.
+ *
+ * @author J. Andrew Holey and <your name here>
+ * @version <today's date here>
+ */
+public class ZHLinkedHeadTailList<ElementType>
+       extends ZHOneWayLinkedStructure<ElementType, ZHLinkedHeadTailList<ElementType>>
+       implements ZHHeadTailList<ElementType> {
+
+	/**
+	 * Creates a new empty list.
+	 */
+ // **** Code for default constructor here
+
+	/**
+	 * Creates a new list with the specified head element and tail.
+	 * 
+	 * @param headElement the element to be at the head of the new list
+	 * @param tail the list to be the tail of the new list
+	 */
+ // **** Code for two-parameter constructor here
+
+	/* (non-Javadoc)
+	 * @see zhstructures.ZHHeadTailList#head()
+	 */
+	@Override
+ // **** Code for head method here
+
+	/* (non-Javadoc)
+	 * @see zhstructures.ZHHeadTailList#tail()
+	 */
+	@Override
+ // **** Code for tail method here
+
+}
